@@ -6,7 +6,7 @@ interface Props {
   pokemons: Pokemon[];
 }
 
-const props = defineProps<Props>();
+defineProps<Props>();
 
 </script>
 
