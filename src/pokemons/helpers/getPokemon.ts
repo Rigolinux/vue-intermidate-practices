@@ -8,7 +8,7 @@ import { sleep } from "./spleep";
 
 export const getPokemons = async(): Promise<Pokemon[]> => {
 
-    await sleep(2000);
+    await sleep(4000);
     
     const { data } = await pokemonApi.get<PokemonsListResponse>('/pokemon?limit=45')
 
